@@ -31,7 +31,7 @@ def tableau2():
     return render_template("tableau2.html")
 
 # HTML ROUTES - MODEL
-@app.route("/model")
+@app.route("/index")
 def model():
     return render_template("index.html")
 
@@ -50,7 +50,7 @@ def about_us():
 def sources():
     return render_template("sources.html")
 
-@app.route("/predictions", methods=["POST"])
+@app.route("/data", methods=["POST"])
 def predictions():
     content = request.json["data"]
     print(content)
