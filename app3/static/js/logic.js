@@ -72,9 +72,9 @@ $(document).ready(function() {
         success: function(returnedData) {
             // print it for debugging
             console.log(returnedData);
-            var prob = parseFloat(returnedData["predictions"]);
+            let prob = parseFloat(returnedData["predictions"]);
   
-            if (prob > 0.5) {
+            if (prob < 0.5) {
                 $("#output").text(`The user is not likely to be impacted by Alzheimers ${(prob * 100).toFixed(2)}%!!`);
             } else {
                 $("#output").text(`Unfortunately, the user is likely to experience symptoms related to Alzheimers ${(prob * 100).toFixed(2)}%!.`);

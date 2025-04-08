@@ -27,19 +27,19 @@ def predictions():
     age = int(content["age"])
     gender = int(content["gender"])
     ethnicity = int(content["ethnicity"])
-    bmi = int(content["bmi"])
+    bmi = float(content["bmi"])
     smoking = int(content["smoking"])
-    alcohol_consumtion = int(content["alcohol_consumption"])
-    physical_activity = int(content["physical_activity"])
-    diet_quality = int(content["diet_quality"])
-    sleep_quality = int(content["sleep_quality"])
+    alcohol_consumtion = float(content["alcohol_consumption"])
+    physical_activity = float(content["physical_activity"])
+    diet_quality = float(content["diet_quality"])
+    sleep_quality = float(content["sleep_quality"])
     family_history_alzheimers = int(content["family_history_alzheimers"])
     cardiovascular_disease = int(content["cardiovascular_disease"])
     diabetes = int(content["diabetes"])
     depression = int(content["depression"])
     head_injury = int(content["head_injury"])
     hypertension = int(content["hypertension"])
-    functional_assessment = int(content["functional_assessment"])
+    functional_assessment = float(content["functional_assessment"])
     memory_complaints = int(content["memory_complaints"])
     behavioral_problems = int(content["behavioral_problems"])
     confusion = int(content["confusion"])
@@ -50,8 +50,10 @@ def predictions():
 
     preds = modelHelper.predictions( age, gender, ethnicity, bmi, smoking, alcohol_consumtion, physical_activity, 
                 diet_quality, sleep_quality, family_history_alzheimers, cardiovascular_disease, diabetes, depression,
-                head_injury, hypertension, functional_assessment, memory_complaints, behavioral_problems, confusion, disorientation, personality_changes, difficulty_completing_tasks, forgetfulness)
-    return(jsonify({"ok": True, "prediction": str(preds)}))
+                head_injury, hypertension, functional_assessment, memory_complaints, behavioral_problems, confusion, 
+                disorientation, personality_changes, difficulty_completing_tasks, forgetfulness)
+    
+    return(jsonify({"ok": True, "predictions": str(preds)}))
 
 
 ############################################################
