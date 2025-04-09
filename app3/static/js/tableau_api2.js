@@ -1,4 +1,5 @@
-var viz;
+//stand in copy from previous group
+let viz;
 
 $(document).ready(function() {
     initializeViz();
@@ -21,9 +22,9 @@ $(document).ready(function() {
 });
 
 function initializeViz() {
-    var placeholderDiv = document.getElementById("tableauViz");
-    var url = "https://public.tableau.com/shared/N4NQ8GSH8";
-    var options = {
+    let placeholderDiv = document.getElementById("tableauViz");
+    let url = "https://public.tableau.com/shared/N4NQ8GSH8";
+    let options = {
         // width: placeholderDiv.offsetWidth,
         // height: placeholderDiv.offsetHeight,
         hideTabs: true,
