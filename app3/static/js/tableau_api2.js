@@ -23,7 +23,7 @@ $(document).ready(function() {
 
 function initializeViz() {
     let placeholderDiv = document.getElementById("tableauViz");
-    let url = "https://public.tableau.com/shared/N4NQ8GSH8";
+    let url = "https://public.tableau.com/app/profile/monica.mitry/viz/AlzeihmersDataDashboard2/FunctionalAssessmentSleepQuality";
     let options = {
         // width: placeholderDiv.offsetWidth,
         // height: placeholderDiv.offsetHeight,
