@@ -93,7 +93,7 @@ Before analysis, extensive cleaning was performed:
 
 We tested four models to predict Alzheimer's diagnosis:
 
-* Linear Regression
+* Logistic Regression
 
 * Decision Tree
 
