@@ -65,9 +65,9 @@ Using Tableau, we created interactive charts to explore the data and uncover pat
 
 * Bubble and bar charts showing demographic influences (age, gender, ethnicity, family history)
 
-* Visualizations examining symptoms and comorbidities like sleep issues, memory complaints, and depression
+* The number of diagnosis cases based on age.
 
-* A comprehensive dashboard displaying illness and symptom breakdowns across different age groups and ethnicities
+* A comprehensive dashboard displaying memory complaints across a range of ages.
 
 ---
 
@@ -97,13 +97,13 @@ We tested four models to predict Alzheimer's diagnosis:
 
 * XGBoost
 
-Each model was evaluated using common classification metrics (accuracy, precision, recall, F1-score). Data was split into training and test sets, scaled, and preprocessed appropriately to ensure model validity.
+Each model was evaluated using common classification metrics (accuracy, AUC, and F1-score). Data was split into training and test sets, and preprocessed appropriately to ensure model validity.
 
 ---
 
 **Limitations and Biases**
 
-* Missing or incomplete data may reduce model performance
+* Missing or incomplete data may have reduce model performance
 
 * The dataset may not be representative across all ethnic or socioeconomic groups
 
@@ -115,5 +115,5 @@ Each model was evaluated using common classification metrics (accuracy, precisio
 
 **Conclusion**
 
-Through the combination of machine learning and data visualization techniques, this project provided valuable insights into the factors contributing to Alzheimer's Disease. The machine learning models demonstrated the potential for predicting diagnoses, while Tableau visualizations helped uncover the complex relationships between age, gender, ethnicity, and family history in the context of Alzheimer's risk. These findings highlight the importance of genetic factors, socioeconomic conditions, and family history in understanding and predicting Alzheimer’s, offering promising avenues for future research and early intervention strategies. 
+Through the combination of machine learning and data visualization techniques, this project provided valuable insights into the factors contributing to Alzheimer's Disease. The machine learning models demonstrated the potential for predicting diagnoses, based on current symptoms and should be used as medical advice. Please refer to your healthcare provider. Meanwhile, Tableau visualizations helped uncover the complex relationships between age, gender, ethnicity, and family history in the context of Alzheimer's risk. These findings highlight the importance of genetic factors, socioeconomic conditions, and family history in understanding and predicting Alzheimer’s, offering promising avenues for future research and early intervention strategies. 
 
