@@ -1,48 +1,45 @@
 **Alzheimer's Disease Prediction and Visualization Project**
 
 **Project Structure:**  
-Project-4-group-9/  
-├── App3/  
-│   ├── static/  
-│   │   ├── css/  
-│   │   │   └── style.css  
-│   │   ├── js/  
-│   │   │   ├── logic.js  
-│   │   │   ├── tableau\_ap1.js  
-│   │   │   └── tableau\_ap2.js  
-│   │   └── writeup/  
-│   ├── templates/  
-│   │   ├── about\_us.html  
-│   │   ├── home.html  
-│   │   ├── index.html  
-│   │   ├── predictor.html  
-│   │   ├── tableau1.html  
-│   │   └── tableau2.html  
-│   ├── Alzheimers\_model\_pipeline.h5  
-│   ├── Alzheimers\_model\_pipeline.pkl  
-│   ├── app.py  
-│   └── modelHelper.py  
-├── Notebooks/  
-│   ├── Machine Learning.ipynb  
-│   ├── Predictions.ipynb  
-│   └── cleaned\_data.ipynb  
-├── Project Documents/  
-│   ├── Project\_4\_Group\_9\_Presentation.pdf  
-│   ├── Project\_4\_Group\_9\_proposal.pdf  
-│   └── Project\_4\_Group\_9\_write\_up.pdf  
-├── Resources/  
-│   ├── alzheimers\_disease\_data.csv  
-│   ├── cleaned\_alzheimers\_disease\_data.csv  
-│   └── tableau\_alzheimers\_disease\_data.csv  
-├── virtual\_documents/  
-│   └── Resources/  
-│       └── cleaned\_data.csv  
+Project-4-group-9/ 
+├── App3/
+│   ├── static/
+│   │   ├── css/
+│   │   │   └── style.css
+│   │   ├── js/
+│   │   │   ├── logic.js
+│   │   │   ├── tableau_ap1.js
+│   │   │   └── tableau_ap2.js
+│   │   └── writeup/
+│   ├── templates/
+│   │   ├── about_us.html
+│   │   ├── home.html
+│   │   ├── index.html
+│   │   ├── predictor.html
+│   │   ├── tableau1.html
+│   │   └── tableau2.html
+│   ├── Alzheimers_model_pipeline.h5
+│   ├── Alzheimers_model_pipeline.pkl
+│   ├── app.py
+│   └── modelHelper.py
+├── Notebooks/
+│   ├── Machine Learning.ipynb
+│   ├── Predictions.ipynb
+│   └── cleaned_data.ipynb
+├── Project Documents/
+│   ├── Project_4_Group_9_Presentation.pdf
+│   ├── Project_4_Group_9_proposal.pdf
+│   └── Project_4_Group_9_write_up.pdf
+├── Resources/
+│   ├── alzheimers_disease_data.csv
+│   ├── cleaned_alzheimers_disease_data.csv
+│   └── tableau_alzheimers_disease_data.csv
+├── virtual_documents/
+│   └── Resources/
+│       └── cleaned_data.csv
 ├── .gitignore
-
 ├── License
-
 ├── Project_4_group_9_ReadMe.md
-
 
 **Overview**
 
