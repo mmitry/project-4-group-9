@@ -43,7 +43,7 @@ Project-4-group-9/
 
 Alzheimer’s Disease is a progressive neurological disorder that affects memory, thinking, and behavior. As one of the most common forms of dementia, it impacts millions worldwide, making early diagnosis and understanding of risk factors essential.
 
-This project uses a combination of **machine learning** and **data visualization** to identify patterns and risk factors that may influence the onset and progression of Alzheimer’s Disease. The [Alzheimer's Disease Prediction 🧠🔍📈](https://www.kaggle.com/code/adhamtarek147/alzheimer-s-disease-prediction) Dataset from kaggle was used as our frame of reference in building the machine learning model.
+This project uses a combination of **machine learning** and **data visualization** to identify patterns and risk factors that may influence the onset and progression of Alzheimer’s Disease. The [Alzheimer's Disease Prediction 🧠🔍📈](https://www.kaggle.com/code/adhamtarek147/alzheimer-s-disease-prediction) Dataset from kaggle was used as our frame of reference in building the machine learning model and Tableau Dashboards.
 
 ---
 
